@@ -1,0 +1,42 @@
+.message__header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.message__title {
+  text-align: left;
+  word-wrap: break-word;
+  break-after: always;
+}
+
+.alert-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.message.container {
+  align-items: flex-start;
+  width: 700px;
+}
+
+.divider__text {
+  color: #999;
+}
+
+.message__info > div {
+  display: flex;
+  align-items: center;
+}
+
+.message__info > div > span {
+  margin-right: 10px;
+}
+
+.message__body > p {
+  margin: 0;
+}

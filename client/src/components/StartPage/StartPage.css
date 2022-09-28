@@ -1,0 +1,30 @@
+.start-page {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 800px;
+
+  padding: 30px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.start-page .container {
+  width: 400px;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+}

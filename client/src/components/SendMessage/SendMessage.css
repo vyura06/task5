@@ -1,0 +1,49 @@
+.form__field {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.send-mail-header {
+  margin: 0;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.form__buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.form__buttons > * {
+  width: fit-content;
+}
+
+.title-field {
+  font-weight: 700;
+}
+
+.field_limited {
+  width: 25ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.send-message-alert {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  opacity: 0;
+  pointer-events: none;
+
+  transition: all 0.5s ease;
+}
+
+.appearing {
+  opacity: 1;
+}
